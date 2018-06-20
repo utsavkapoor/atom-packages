@@ -1,0 +1,29 @@
+"*":
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": "never"
+  "atom-ternjs":
+    inlineFnCompletionDocumentation: true
+    snippetsFirst: true
+    useSnippets: true
+    useSnippetsAndFunction: true
+  core:
+    themes: [
+      "seti-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    fontFamily: "SF Mono"
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "12529945-d686-4cb7-a340-87f8e50e968e"
+  "linter-ui-default":
+    panelHeight: 133
+    showPanel: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
